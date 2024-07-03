@@ -1,0 +1,585 @@
+:root {
+  --heading-1-font-family: Arial, sans-serif;
+  --heading-1-font-size-desktop: 36px;
+  --heading-1-font-size-mobile: 32px;
+  --heading-1-font-weight-desktop: 500;
+  --heading-1-font-weight-mobile: 500;
+  --heading-1-line-height-desktop: 140%;
+  --heading-1-line-height-mobile: 140%;
+  --heading-1-letter-spacing-desktop: 0.05em;
+  --heading-1-letter-spacing-mobile: 0.05em;
+
+  --heading-2-font-family: Arial, sans-serif;
+  --heading-2-font-size-desktop: 32px;
+  --heading-2-font-size-mobile: 28px;
+  --heading-2-font-weight-desktop: 500;
+  --heading-2-font-weight-mobile: 500;
+  --heading-2-line-height-desktop: 150%;
+  --heading-2-line-height-mobile: 150%;
+  --heading-2-letter-spacing-desktop: 0.05em;
+  --heading-2-letter-spacing-mobile: 0.05em;
+
+  --heading-3-font-family: Arial, sans-serif;
+  --heading-3-font-size-desktop: 28px;
+  --heading-3-font-size-mobile: 24px;
+  --heading-3-font-weight-desktop: 500;
+  --heading-3-font-weight-mobile: 500;
+  --heading-3-line-height-desktop: 150%;
+  --heading-3-line-height-mobile: 150%;
+  --heading-3-letter-spacing-desktop: 0.05em;
+  --heading-3-letter-spacing-mobile: 0.05em;
+
+  --heading-1-sub-font-family: Arial, sans-serif;
+  --heading-1-sub-font-size-desktop: 30px;
+  --heading-1-sub-font-size-mobile: 26px;
+  --heading-1-sub-font-weight-desktop: 500;
+  --heading-1-sub-font-weight-mobile: 500;
+  --heading-1-sub-line-height-desktop: 140%;
+  --heading-1-sub-line-height-mobile: 140%;
+  --heading-1-sub-letter-spacing-desktop: 0.05em;
+  --heading-1-sub-letter-spacing-mobile: 0.05em;
+
+  --heading-2-sub-font-family: Arial, sans-serif;
+  --heading-2-sub-font-size-desktop: 28px;
+  --heading-2-sub-font-size-mobile: 24px;
+  --heading-2-sub-font-weight-desktop: 500;
+  --heading-2-sub-font-weight-mobile: 500;
+  --heading-2-sub-line-height-desktop: 150%;
+  --heading-2-sub-line-height-mobile: 150%;
+  --heading-2-sub-letter-spacing-desktop: 0.05em;
+  --heading-2-sub-letter-spacing-mobile: 0.05em;
+
+  --label-font-family: Arial, sans-serif;
+  --label-font-size-desktop: 16px;
+  --label-font-size-mobile: 14px;
+  --label-font-weight-desktop: 400;
+  --label-font-weight-mobile: 400;
+  --label-line-height-desktop: 140%;
+  --label-line-height-mobile: 140%;
+  --label-letter-spacing-desktop: 0.05em;
+  --label-letter-spacing-mobile: 0.05em;
+
+  --note-font-family: Arial, sans-serif;
+  --note-font-size-desktop: 14px;
+  --note-font-size-mobile: 12px;
+  --note-font-weight-desktop: 400;
+  --note-font-weight-mobile: 400;
+  --note-line-height-desktop: 140%;
+  --note-line-height-mobile: 140%;
+  --note-letter-spacing-desktop: 0.05em;
+  --note-letter-spacing-mobile: 0.05em;
+
+  --button-font-family: Arial, sans-serif;
+  --button-font-size-desktop: 16px;
+  --button-font-size-mobile: 14px;
+  --button-font-weight-desktop: 700;
+  --button-font-weight-mobile: 700;
+  --button-line-height-desktop: 140%;
+  --button-line-height-mobile: 140%;
+  --button-letter-spacing-desktop: 0.05em;
+  --button-letter-spacing-mobile: 0.05em;
+
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-muted: #f5f5f5;
+  --color-primary-button: #fff;
+  --color-secondary-button: #fff;
+  --color-border: #a5a5a5;
+  --color-overlay: rgba(255, 255, 255, 0.8);
+  --color-paragraph: #000000;
+  --color-heading: #000000;
+  --color-primary-button-text: #000000;
+  --color-secondary-button-text: #000000;
+}
+
+/* templates */
+.template1 {
+  --heading-1-font-family: Arial, sans-serif;
+  --heading-1-font-size-desktop: 36px;
+  --heading-1-font-size-mobile: 32px;
+  --heading-1-font-weight-desktop: 500;
+  --heading-1-font-weight-mobile: 500;
+  --heading-1-line-height-desktop: 140%;
+  --heading-1-line-height-mobile: 140%;
+  --heading-1-letter-spacing-desktop: 0.05em;
+  --heading-1-letter-spacing-mobile: 0.05em;
+
+  --heading-2-font-family: Arial, sans-serif;
+  --heading-2-font-size-desktop: 32px;
+  --heading-2-font-size-mobile: 28px;
+  --heading-2-font-weight-desktop: 500;
+  --heading-2-font-weight-mobile: 500;
+  --heading-2-line-height-desktop: 150%;
+  --heading-2-line-height-mobile: 150%;
+  --heading-2-letter-spacing-desktop: 0.05em;
+  --heading-2-letter-spacing-mobile: 0.05em;
+
+  --heading-3-font-family: Arial, sans-serif;
+  --heading-3-font-size-desktop: 28px;
+  --heading-3-font-size-mobile: 24px;
+  --heading-3-font-weight-desktop: 500;
+  --heading-3-font-weight-mobile: 500;
+  --heading-3-line-height-desktop: 150%;
+  --heading-3-line-height-mobile: 150%;
+  --heading-3-letter-spacing-desktop: 0.05em;
+  --heading-3-letter-spacing-mobile: 0.05em;
+
+  --heading-1-sub-font-family: Arial, sans-serif;
+  --heading-1-sub-font-size-desktop: 30px;
+  --heading-1-sub-font-size-mobile: 26px;
+  --heading-1-sub-font-weight-desktop: 500;
+  --heading-1-sub-font-weight-mobile: 500;
+  --heading-1-sub-line-height-desktop: 140%;
+  --heading-1-sub-line-height-mobile: 140%;
+  --heading-1-sub-letter-spacing-desktop: 0.05em;
+  --heading-1-sub-letter-spacing-mobile: 0.05em;
+
+  --heading-2-sub-font-family: Arial, sans-serif;
+  --heading-2-sub-font-size-desktop: 28px;
+  --heading-2-sub-font-size-mobile: 24px;
+  --heading-2-sub-font-weight-desktop: 500;
+  --heading-2-sub-font-weight-mobile: 500;
+  --heading-2-sub-line-height-desktop: 150%;
+  --heading-2-sub-line-height-mobile: 150%;
+  --heading-2-sub-letter-spacing-desktop: 0.05em;
+  --heading-2-sub-letter-spacing-mobile: 0.05em;
+
+  --label-font-family: Arial, sans-serif;
+  --label-font-size-desktop: 16px;
+  --label-font-size-mobile: 14px;
+  --label-font-weight-desktop: 400;
+  --label-font-weight-mobile: 400;
+  --label-line-height-desktop: 140%;
+  --label-line-height-mobile: 140%;
+  --label-letter-spacing-desktop: 0.05em;
+  --label-letter-spacing-mobile: 0.05em;
+
+  --note-font-family: Arial, sans-serif;
+  --note-font-size-desktop: 14px;
+  --note-font-size-mobile: 12px;
+  --note-font-weight-desktop: 400;
+  --note-font-weight-mobile: 400;
+  --note-line-height-desktop: 140%;
+  --note-line-height-mobile: 140%;
+  --note-letter-spacing-desktop: 0.05em;
+  --note-letter-spacing-mobile: 0.05em;
+
+  --button-font-family: Arial, sans-serif;
+  --button-font-size-desktop: 16px;
+  --button-font-size-mobile: 14px;
+  --button-font-weight-desktop: 700;
+  --button-font-weight-mobile: 700;
+  --button-line-height-desktop: 140%;
+  --button-line-height-mobile: 140%;
+  --button-letter-spacing-desktop: 0.05em;
+  --button-letter-spacing-mobile: 0.05em;
+
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-muted: #f5f5f5;
+  --color-primary-button: #fff;
+  --color-secondary-button: #fff;
+  --color-border: #a5a5a5;
+  --color-overlay: rgba(255, 255, 255, 0.8);
+  --color-paragraph: #000000;
+  --color-heading: #000000;
+  --color-primary-button-text: #000000;
+  --color-secondary-button-text: #000000;
+}
+
+.template2 {
+  --heading-1-font-family: Georgia, serif;
+  --heading-1-font-size-desktop: 40px;
+  --heading-1-font-size-mobile: 36px;
+  --heading-1-font-weight-desktop: 600;
+  --heading-1-font-weight-mobile: 600;
+  --heading-1-line-height-desktop: 150%;
+  --heading-1-line-height-mobile: 150%;
+  --heading-1-letter-spacing-desktop: 0.1em;
+  --heading-1-letter-spacing-mobile: 0.1em;
+
+  --heading-2-font-family: Arial, sans-serif;
+  --heading-2-font-size-desktop: 32px;
+  --heading-2-font-size-mobile: 28px;
+  --heading-2-font-weight-desktop: 500;
+  --heading-2-font-weight-mobile: 500;
+  --heading-2-line-height-desktop: 150%;
+  --heading-2-line-height-mobile: 150%;
+  --heading-2-letter-spacing-desktop: 0.05em;
+  --heading-2-letter-spacing-mobile: 0.05em;
+
+  --heading-3-font-family: Arial, sans-serif;
+  --heading-3-font-size-desktop: 28px;
+  --heading-3-font-size-mobile: 24px;
+  --heading-3-font-weight-desktop: 500;
+  --heading-3-font-weight-mobile: 500;
+  --heading-3-line-height-desktop: 150%;
+  --heading-3-line-height-mobile: 150%;
+  --heading-3-letter-spacing-desktop: 0.05em;
+  --heading-3-letter-spacing-mobile: 0.05em;
+
+  --heading-1-sub-font-family: Arial, sans-serif;
+  --heading-1-sub-font-size-desktop: 30px;
+  --heading-1-sub-font-size-mobile: 26px;
+  --heading-1-sub-font-weight-desktop: 500;
+  --heading-1-sub-font-weight-mobile: 500;
+  --heading-1-sub-line-height-desktop: 140%;
+  --heading-1-sub-line-height-mobile: 140%;
+  --heading-1-sub-letter-spacing-desktop: 0.05em;
+  --heading-1-sub-letter-spacing-mobile: 0.05em;
+
+  --heading-2-sub-font-family: Arial, sans-serif;
+  --heading-2-sub-font-size-desktop: 28px;
+  --heading-2-sub-font-size-mobile: 24px;
+  --heading-2-sub-font-weight-desktop: 500;
+  --heading-2-sub-font-weight-mobile: 500;
+  --heading-2-sub-line-height-desktop: 150%;
+  --heading-2-sub-line-height-mobile: 150%;
+  --heading-2-sub-letter-spacing-desktop: 0.05em;
+  --heading-2-sub-letter-spacing-mobile: 0.05em;
+
+  --label-font-family: Arial, sans-serif;
+  --label-font-size-desktop: 16px;
+  --label-font-size-mobile: 14px;
+  --label-font-weight-desktop: 400;
+  --label-font-weight-mobile: 400;
+  --label-line-height-desktop: 140%;
+  --label-line-height-mobile: 140%;
+  --label-letter-spacing-desktop: 0.05em;
+  --label-letter-spacing-mobile: 0.05em;
+
+  --note-font-family: Arial, sans-serif;
+  --note-font-size-desktop: 14px;
+  --note-font-size-mobile: 12px;
+  --note-font-weight-desktop: 400;
+  --note-font-weight-mobile: 400;
+  --note-line-height-desktop: 140%;
+  --note-line-height-mobile: 140%;
+  --note-letter-spacing-desktop: 0.05em;
+  --note-letter-spacing-mobile: 0.05em;
+
+  --button-font-family: Arial, sans-serif;
+  --button-font-size-desktop: 16px;
+  --button-font-size-mobile: 14px;
+  --button-font-weight-desktop: 700;
+  --button-font-weight-mobile: 700;
+  --button-line-height-desktop: 140%;
+  --button-line-height-mobile: 140%;
+  --button-letter-spacing-desktop: 0.05em;
+  --button-letter-spacing-mobile: 0.05em;
+
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-muted: #f5f5f5;
+  --color-primary-button: #fff;
+  --color-secondary-button: #fff;
+  --color-border: #a5a5a5;
+  --color-overlay: rgba(255, 255, 255, 0.8);
+  --color-paragraph: #000000;
+  --color-heading: #000000;
+  --color-primary-button-text: #000000;
+  --color-secondary-button-text: #000000;
+}
+
+.template3 {
+  --heading-1-font-family: "Times New Roman", serif;
+  --heading-1-font-size-desktop: 44px;
+  --heading-1-font-size-mobile: 40px;
+  --heading-1-font-weight-desktop: 700;
+  --heading-1-font-weight-mobile: 700;
+  --heading-1-line-height-desktop: 160%;
+  --heading-1-line-height-mobile: 160%;
+  --heading-1-letter-spacing-desktop: 0.15em;
+  --heading-1-letter-spacing-mobile: 0.15em;
+
+  --heading-2-font-family: Arial, sans-serif;
+  --heading-2-font-size-desktop: 32px;
+  --heading-2-font-size-mobile: 28px;
+  --heading-2-font-weight-desktop: 500;
+  --heading-2-font-weight-mobile: 500;
+  --heading-2-line-height-desktop: 150%;
+  --heading-2-line-height-mobile: 150%;
+  --heading-2-letter-spacing-desktop: 0.05em;
+  --heading-2-letter-spacing-mobile: 0.05em;
+
+  --heading-3-font-family: Arial, sans-serif;
+  --heading-3-font-size-desktop: 28px;
+  --heading-3-font-size-mobile: 24px;
+  --heading-3-font-weight-desktop: 500;
+  --heading-3-font-weight-mobile: 500;
+  --heading-3-line-height-desktop: 150%;
+  --heading-3-line-height-mobile: 150%;
+  --heading-3-letter-spacing-desktop: 0.05em;
+  --heading-3-letter-spacing-mobile: 0.05em;
+
+  --heading-1-sub-font-family: Arial, sans-serif;
+  --heading-1-sub-font-size-desktop: 30px;
+  --heading-1-sub-font-size-mobile: 26px;
+  --heading-1-sub-font-weight-desktop: 500;
+  --heading-1-sub-font-weight-mobile: 500;
+  --heading-1-sub-line-height-desktop: 140%;
+  --heading-1-sub-line-height-mobile: 140%;
+  --heading-1-sub-letter-spacing-desktop: 0.05em;
+  --heading-1-sub-letter-spacing-mobile: 0.05em;
+
+  --heading-2-sub-font-family: Arial, sans-serif;
+  --heading-2-sub-font-size-desktop: 28px;
+  --heading-2-sub-font-size-mobile: 24px;
+  --heading-2-sub-font-weight-desktop: 500;
+  --heading-2-sub-font-weight-mobile: 500;
+  --heading-2-sub-line-height-desktop: 150%;
+  --heading-2-sub-line-height-mobile: 150%;
+  --heading-2-sub-letter-spacing-desktop: 0.05em;
+  --heading-2-sub-letter-spacing-mobile: 0.05em;
+
+  --label-font-family: Arial, sans-serif;
+  --label-font-size-desktop: 16px;
+  --label-font-size-mobile: 14px;
+  --label-font-weight-desktop: 400;
+  --label-font-weight-mobile: 400;
+  --label-line-height-desktop: 140%;
+  --label-line-height-mobile: 140%;
+  --label-letter-spacing-desktop: 0.05em;
+  --label-letter-spacing-mobile: 0.05em;
+
+  --note-font-family: Arial, sans-serif;
+  --note-font-size-desktop: 14px;
+  --note-font-size-mobile: 12px;
+  --note-font-weight-desktop: 400;
+  --note-font-weight-mobile: 400;
+  --note-line-height-desktop: 140%;
+  --note-line-height-mobile: 140%;
+  --note-letter-spacing-desktop: 0.05em;
+  --note-letter-spacing-mobile: 0.05em;
+
+  --button-font-family: Arial, sans-serif;
+  --button-font-size-desktop: 16px;
+  --button-font-size-mobile: 14px;
+  --button-font-weight-desktop: 700;
+  --button-font-weight-mobile: 700;
+  --button-line-height-desktop: 140%;
+  --button-line-height-mobile: 140%;
+  --button-letter-spacing-desktop: 0.05em;
+  --button-letter-spacing-mobile: 0.05em;
+
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-muted: #f5f5f5;
+  --color-primary-button: #fff;
+  --color-secondary-button: #fff;
+  --color-border: #a5a5a5;
+  --color-overlay: rgba(255, 255, 255, 0.8);
+  --color-paragraph: #000000;
+  --color-heading: #000000;
+  --color-primary-button-text: #000000;
+  --color-secondary-button-text: #000000;
+}
+
+/* text themes */
+.text-theme1 {
+  --heading-1-font-family: Arial, sans-serif;
+}
+
+.text-theme2 {
+  --heading-1-font-family: Georgia, serif;
+}
+
+.text-theme3 {
+  --heading-1-font-family: "Times New Roman", serif;
+}
+
+/* color themes */
+.color-theme1 {
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-muted: #f5f5f5;
+  --color-primary-button: #fff;
+  --color-secondary-button: #fff;
+  --color-border: #a5a5a5;
+  --color-overlay: rgba(255, 255, 255, 0.8);
+  --color-paragraph: #000000;
+  --color-heading: #000000;
+  --color-primary-button-text: #000000;
+  --color-secondary-button-text: #000000;
+}
+
+.color-theme2 {
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-muted: #f5f5f5;
+  --color-primary-button: #fff;
+  --color-secondary-button: #fff;
+  --color-border: #a5a5a5;
+  --color-overlay: rgba(255, 255, 255, 0.8);
+  --color-paragraph: #000000;
+  --color-heading: #000000;
+  --color-primary-button-text: #000000;
+  --color-secondary-button-text: #000000;
+}
+
+.color-theme3 {
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-muted: #f5f5f5;
+  --color-primary-button: #fff;
+  --color-secondary-button: #fff;
+  --color-border: #a5a5a5;
+  --color-overlay: rgba(255, 255, 255, 0.8);
+  --color-paragraph: #000000;
+  --color-heading: #000000;
+  --color-primary-button-text: #000000;
+  --color-secondary-button-text: #000000;
+}
+
+/* theme */
+body {
+  font-feature-settings: "pwid" on;
+  background-color: var(--color-primary);
+}
+
+.text-theme-heading-1 {
+  font-family: var(--heading-1-font-family);
+}
+
+.color-theme-heading-1 {
+  color: var(--color-heading);
+}
+
+.text-theme-heading-2 {
+  font-family: var(--heading-2-font-family);
+}
+
+.text-theme-heading-3 {
+  font-family: var(--heading-3-font-family);
+}
+
+.text-theme-heading-1-sub {
+  font-family: var(--heading-1-sub-font-family);
+}
+
+.text-theme-heading-2-sub {
+  font-family: var(--heading-2-sub-font-family);
+}
+
+.text-theme-label {
+  font-family: var(--label-font-family);
+}
+
+.text-theme-note {
+  font-family: var(--note-font-family);
+}
+
+.text-theme-button {
+  font-family: var(--button-font-family);
+}
+
+/* text styles */
+.heading-1 {
+  font-size: var(--heading-1-font-size-desktop);
+  font-weight: var(--heading-1-font-weight-desktop);
+  line-height: var(--heading-1-line-height-desktop);
+  letter-spacing: var(--heading-1-letter-spacing-desktop);
+}
+
+.color-heading-1 {
+  color: var(--color-heading);
+}
+
+.heading-2 {
+  font-size: var(--heading-2-font-size-desktop);
+  font-weight: var(--heading-2-font-weight-desktop);
+  line-height: var(--heading-2-line-height-desktop);
+  letter-spacing: var(--heading-2-letter-spacing-desktop);
+}
+
+.heading-3 {
+  font-size: var(--heading-3-font-size-desktop);
+  font-weight: var(--heading-3-font-weight-desktop);
+  line-height: var(--heading-3-line-height-desktop);
+  letter-spacing: var(--heading-3-letter-spacing-desktop);
+}
+
+.heading-1-sub {
+  font-size: var(--heading-1-sub-font-size-desktop);
+  font-weight: var(--heading-1-sub-font-weight-desktop);
+  line-height: var(--heading-1-sub-line-height-desktop);
+  letter-spacing: var(--heading-1-sub-letter-spacing-desktop);
+}
+
+.heading-2-sub {
+  font-size: var(--heading-2-sub-font-size-desktop);
+  font-weight: var(--heading-2-sub-font-weight-desktop);
+  line-height: var(--heading-2-sub-line-height-desktop);
+  letter-spacing: var(--heading-2-sub-letter-spacing-desktop);
+}
+
+.label {
+  font-size: var(--label-font-size-desktop);
+  font-weight: var(--label-font-weight-desktop);
+  line-height: var(--label-line-height-desktop);
+  letter-spacing: var(--label-letter-spacing-desktop);
+}
+
+.note {
+  font-size: var(--note-font-size-desktop);
+  font-weight: var(--note-font-weight-desktop);
+  line-height: var(--note-line-height-desktop);
+  letter-spacing: var(--note-letter-spacing-desktop);
+}
+
+.button {
+  font-size: var(--button-font-size-desktop);
+  font-weight: var(--button-font-weight-desktop);
+  line-height: var(--button-line-height-desktop);
+  letter-spacing: var(--button-letter-spacing-desktop);
+}
+
+@media screen and (max-width: 428px) {
+  .heading-1 {
+    font-size: var(--heading-1-font-size-mobile);
+    line-height: var(--heading-1-line-height-mobile);
+    letter-spacing: var(--heading-1-letter-spacing-mobile);
+  }
+
+  .heading-2 {
+    font-size: var(--heading-2-font-size-mobile);
+    line-height: var(--heading-2-line-height-mobile);
+    letter-spacing: var(--heading-2-letter-spacing-mobile);
+  }
+
+  .heading-3 {
+    font-size: var(--heading-3-font-size-mobile);
+    line-height: var(--heading-3-line-height-mobile);
+    letter-spacing: var(--heading-3-letter-spacing-mobile);
+  }
+
+  .heading-1-sub {
+    font-size: var(--heading-1-sub-font-size-mobile);
+    line-height: var(--heading-1-sub-line-height-mobile);
+    letter-spacing: var(--heading-1-sub-letter-spacing-mobile);
+  }
+
+  .heading-2-sub {
+    font-size: var(--heading-2-sub-font-size-mobile);
+    line-height: var(--heading-2-sub-line-height-mobile);
+    letter-spacing: var(--heading-2-sub-letter-spacing-mobile);
+  }
+
+  .label {
+    font-size: var(--label-font-size-mobile);
+    line-height: var(--label-line-height-mobile);
+    letter-spacing: var(--label-letter-spacing-mobile);
+  }
+
+  .note {
+    font-size: var(--note-font-size-mobile);
+    line-height: var(--note-line-height-mobile);
+    letter-spacing: var(--note-letter-spacing-mobile);
+  }
+
+  .button {
+    font-size: var(--button-font-size-mobile);
+    line-height: var(--button-line-height-mobile);
+    letter-spacing: var(--button-letter-spacing-mobile);
+  }
+}
